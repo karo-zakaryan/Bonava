@@ -1,0 +1,40 @@
+.modal {
+    padding: 0 !important;
+}
+
+.m-header {
+    background-color: #013B2D;
+    justify-content: center;
+    color: #fff;
+}
+
+.m-footer {
+    border: 0;
+}
+
+.close-btn {
+    color: #013B2D;
+    border-color: #013B2D;
+}
+
+.save-btn {
+    background-color: #013B2D;
+    border-color: #013B2D;
+}
+
+.close-btn:hover, .save-btn:hover {
+    background-color: #013B2D;
+    border-color: #013B2D;
+}
+
+.money-desc {
+    margin-bottom: 15px;
+}
+
+.message-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    height: 30px;
+}

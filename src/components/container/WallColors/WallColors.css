@@ -1,0 +1,9 @@
+.Walls {
+  width: 100%;
+}
+
+.Wall-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,12 @@
+/* Webfont: BonavaSans-Bold */@font-face {
+    font-family: 'BonavaSans';
+    src: url('BonavaSans-Bold.eot'); /* IE9 Compat Modes */
+    src: url('BonavaSans-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('BonavaSans-Bold.woff') format('woff'), /* Modern Browsers */
+         url('BonavaSans-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('BonavaSans-Bold.svg#BonavaSans-Bold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+

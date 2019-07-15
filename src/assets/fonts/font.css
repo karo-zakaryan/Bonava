@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'BonavaSans_bold';
+    src: url('./BonavaSans/BonavaSans-Bold.otf') format("otf"), url('./BonavaSans/TTF/BonavaSans-Bold.ttf') format('ttf'), url('./BonavaSans/WebFonts/BonavaSans-Bold.eot') format('eot'), url('./BonavaSans/WebFonts/BonavaSans-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'BonavaSans_italic';
+    src: url('./BonavaSans/BonavaSans-Italic.otf') format("otf"), url('./BonavaSans/TTF/BonavaSans-Italic.ttf') format('ttf'), url('./BonavaSans/WebFonts/BonavaSans-Italic.eot') format('eot'), url('./BonavaSans/WebFonts/BonavaSans-Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'BonavaSans_light';
+    src: url('./BonavaSans/BonavaSans-Light.otf') format("otf"), url('./BonavaSans/TTF/BonavaSans-Light.ttf') format('ttf'), url('./BonavaSans/WebFonts/BonavaSans-Light.eot') format('eot'), url('./BonavaSans/WebFonts/BonavaSans-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'BonavaSans_medium';
+    src: url('./BonavaSans/BonavaSans-Medium.otf') format("otf"), url('./BonavaSans/TTF/BonavaSans-Medium.ttf') format('ttf'), url('./BonavaSans/WebFonts/BonavaSans-Medium.eot') format('eot'), url('./BonavaSans/WebFonts/BonavaSans-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'BonavaSans_regular';
+    src: url('./BonavaSans/BonavaSans-Regular.otf') format("otf"), url('./BonavaSans/TTF/BonavaSans-Regular.ttf') format('ttf'), url('./BonavaSans/WebFonts/BonavaSans-Regular.eot') format('eot'), url('./BonavaSans/WebFonts/BonavaSans-Regular.woff') format('woff');
+}

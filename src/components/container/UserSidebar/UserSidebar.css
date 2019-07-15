@@ -1,0 +1,23 @@
+.sd-user {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+
+.ni-user {
+    margin: 30px 0;
+    font-size: 18px;
+    font-family: "BonavaSans_regular" !important;
+}
+
+.ni-user a {
+    color: black;
+    display: flex;
+    text-transform: uppercase;
+}
+
+.ni-user a.active span {
+    padding-bottom: 5px;
+    border-bottom: 3px solid #6EC2B3;
+}

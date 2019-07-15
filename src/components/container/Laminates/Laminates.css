@@ -1,0 +1,55 @@
+.Laminate-content {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    align-items: flex-start;
+}
+
+.laminate {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.lm-item, .f-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lm-item p {
+    margin-left: 10px;
+    margin: 0 10px;
+}
+
+.s-item img {
+    max-width: 60px;
+}
+
+.lm-img {
+    position: relative;
+}
+
+.Laminate-checkbox {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.lam-inp {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media(max-width: 770px) {
+    .top-item {
+        margin-top: 30px;
+    }
+}
+
+@media(max-width: 478px) {
+    .lm-item, .f-item {
+        flex-direction: column;
+    }
+}

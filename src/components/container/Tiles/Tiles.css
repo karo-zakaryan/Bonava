@@ -1,0 +1,61 @@
+.Tile-items {
+    margin-right: 5px;
+}
+
+.tile-variant {
+    margin-bottom: 10px;
+}
+
+.tile-variant p {
+    font-size: 14px;
+    color: #033C2E;
+    font-weight: bold;
+}
+
+.tile-item {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tile-item p {
+    font-size: 12px;
+    margin-left: 5px;
+    font-family: BonavaSansBold !important;
+    word-break: break-all;
+}
+
+.tile-variant p {
+    height: 37px;
+}
+
+.tile-bg {
+    max-width: 40px;
+    min-width: 40px;
+    height: 30px;
+    border: 2px solid #000;
+}
+
+.tile-variant button {
+    background: #819099;
+    border: none;
+    width: 50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: #013B2D;
+}
+
+.tiles-c {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tiles-c img {
+    max-width: 40px;
+    min-width: 40px;
+    height: 30px;
+}

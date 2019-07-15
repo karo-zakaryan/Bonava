@@ -1,0 +1,86 @@
+.packages {
+    padding-left: 0;
+}
+
+.other-top {
+    padding: 15px 15px 0;
+}
+
+.pack-top canvas {
+    width: 100%;
+    height: 200px;
+}
+
+.pack-data {
+    display: flex;
+    font-size: 14px;
+    font-family: "BonavaSans_light";
+    justify-content: space-between;
+    max-width: 200px;
+    width: 100%;
+    margin: 15px auto;
+}
+
+.other_page_input {
+    width: 100%;
+    box-shadow: none !important;
+    border: 0;
+    border-radius: 0 !important;
+    outline: 0;
+    border-color: #5B9BD5 !important;
+    border-bottom: 1px solid #5B9BD5;
+    padding-bottom: 7px;
+    padding-left: 0;
+}
+
+.other_page_input::placeholder {
+    color: #000;
+}
+
+.other_page_fg_container {
+    display: flex;
+}
+
+.other_page_fg_container .form-group {
+    display: flex;
+    max-width: 200px;
+    width: 100%;
+    margin-right: 40px;
+}
+
+.react-datepicker-wrapper {
+    width: 100%;
+}
+
+.react-datepicker__input-container {
+    width: 100%;
+    display: flex;
+}
+.inp_group_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer_actions {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+
+.footer_actions button {
+    margin-left: 15px;
+}
+
+@media (max-width: 772px) {
+    .other_page_fg_container {
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .other_page_fg_container div {
+        margin-right: 0 !important;
+    }
+}

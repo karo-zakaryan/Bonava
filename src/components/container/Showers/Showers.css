@@ -1,0 +1,32 @@
+.shower-img-container {
+    margin-top: 10px;
+}
+
+.shower-img-container img {
+    max-width: 90px;
+    width: 100%;
+    height: 217px;
+}
+
+.Shower-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Shower-item {
+    max-width: 32%;
+    width: 100%;
+}
+
+.Shower-item p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.shower-chekbox-container {
+    padding: 30px;
+}
+
+.shower-chekbox-container input {
+    bottom: 0;
+}

@@ -1,0 +1,54 @@
+.sidebar {
+    border-right: 1px solid #DAE1E6;
+}
+
+.tab-col {
+    margin: 30px 0;
+}
+
+.tab-col h4 {
+    font-family: "BonavaSans_bold" !important;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #013B2D;
+}
+
+.tab-item {
+    background-color: #fff !important;
+}
+
+.tab-item a {
+    color: #013B2D;
+}
+
+.tab-item a.active {
+    background-color: #819099 !important;
+}
+
+.button-toolbar {
+    justify-content: center;
+    margin-top: 15px;
+    justify-content: flex-end;
+}
+
+.button-toolbar button, .button-toolbar button:active {
+    outline: 0;
+    background-color: #013B2D !important;
+    border-color: #013B2D !important;
+    color: #E2F3F2;
+}
+
+.button-toolbar button:hover {
+    background-color: rgb(136, 219, 168) !important;
+    border-color: rgb(136, 219, 168) !important;
+    color: #013B2D;
+}
+
+.button-toolbar button:active {
+    color: #013B2D;
+}
+
+.button-toolbar button:focus {
+    box-shadow: none;
+}

@@ -1,0 +1,12 @@
+/* Webfont: BonavaSans-Light */@font-face {
+    font-family: 'BonavaSansLight';
+    src: url('BonavaSans-Light.eot'); /* IE9 Compat Modes */
+    src: url('BonavaSans-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('BonavaSans-Light.woff') format('woff'), /* Modern Browsers */
+         url('BonavaSans-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('BonavaSans-Light.svg#BonavaSans-Light') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

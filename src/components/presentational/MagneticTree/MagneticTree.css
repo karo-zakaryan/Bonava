@@ -1,0 +1,45 @@
+ul {
+    background-color: transparent !important;
+}
+
+.tree-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.tree {
+    display: flex;
+}
+
+#dropdown-basic {
+    position: relative;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 0;
+    padding: 3px;
+    cursor: pointer;
+}
+
+#dropdown-basic:before {
+    position: absolute;
+    left: 20px;
+    top: 0;
+    content: '';
+    background-color: black;
+    border-radius: 5px;
+    font-size: 0;
+    padding: 3px;
+}
+
+#dropdown-basic:after {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    content: '';
+    background-color: black;
+    border-radius: 5px;
+    font-size: 0;
+    padding: 3px;
+}

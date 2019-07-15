@@ -1,0 +1,12 @@
+/* Webfont: BonavaSans-Italic */@font-face {
+    font-family: 'BonavaSans';
+    src: url('BonavaSans-Italic.eot'); /* IE9 Compat Modes */
+    src: url('BonavaSans-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('BonavaSans-Italic.woff') format('woff'), /* Modern Browsers */
+         url('BonavaSans-Italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('BonavaSans-Italic.svg#BonavaSans-Italic') format('svg'); /* Legacy iOS */
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

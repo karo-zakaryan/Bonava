@@ -1,0 +1,78 @@
+.admin__navbar-container {
+  width: 100%;
+  height: 90px;
+  padding: 0;
+}
+
+.logo {
+  cursor: pointer;
+  width: 25%;
+  height: 100%;
+  background-color: #004b33;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right_nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 75%;
+  height: 100%;
+  background: #013b2d;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-family: "BonavaSans_regular" !important;
+  white-space: normal;
+  margin: 0 8px;
+  padding-bottom: 0;
+}
+
+.logo_img {
+  position: absolute;
+  height: 40px;
+}
+
+.dropdown_title a {
+  font-family: "BonavaSans_regular" !important;
+}
+
+.dropdown_title .dropdown-toggle,
+.dropdown_title .dropdown-toggle:hover {
+  color: #fff !important;
+  padding-bottom: 4px;
+}
+
+@media (max-width: 1200px) {
+  .logo_img {
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 70%;
+  }
+}
+
+@media (max-width: 737px) {
+  .right_nav {
+    flex-direction: column;
+  }
+  .navbar-brand {
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+  }
+
+  .brand_cont {
+    align-items: center !important;
+  }
+}

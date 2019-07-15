@@ -1,0 +1,37 @@
+.Wall--container {
+  position: relative;
+  margin: 20px 2%;
+  width: 120px;
+}
+
+.Wall {
+  padding: 0 25px;
+  height: 150px;
+  border: 1px solid black;
+}
+
+.Wall p {
+  color: #fff;
+  padding-top: 15px;
+  word-break: break-all;
+}
+
+.Wall--bottom {
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  top: 120px;
+  height: 30px;
+  border: 1px solid #000;
+  width: 100%;
+  background-color: #fff;
+}
+
+.Wall--bottom input {
+  margin: 0 5px 2px 5px;
+}
+
+.Wall--bottom p {
+  font-size: 12px;
+  margin-bottom: 2px;
+}

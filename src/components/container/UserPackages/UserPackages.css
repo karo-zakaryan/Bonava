@@ -1,0 +1,95 @@
+.packages {
+    padding-left: 0;
+}
+
+.pack-top {
+    padding: 15px;
+    border-bottom: 1px solid #DAE1E6;
+}
+
+.pack-top canvas {
+    width: 100%;
+    height: 200px;
+}
+
+.pack-data {
+    display: flex;
+    font-size: 14px;
+    font-family: "BonavaSans_light";
+    justify-content: space-between;
+    max-width: 240px;
+    width: 100%;
+    margin: 15px auto;
+}
+
+.table-responsive {
+    padding: 30px;
+    overflow-x: visible;
+}
+
+.table, .table tr, .table tbody td, .table thead th, .table tfoot th {
+    border: none;
+}
+
+.table th {
+    cursor: pointer;
+}
+
+.table th span {
+    padding-bottom: 5px;
+}
+
+.table th span {
+    color: #404040;
+    text-transform: capitalize;
+    font-size: 18px !important;
+    font-family: "BonavaSans_light";
+    font-weight: normal;
+    display: inline-block;
+    position: relative;
+}
+
+.active-span::after {
+    background: #6EC2B3 none repeat scroll 0 0;
+    bottom: -5px;
+    content: "";
+    display: inline-block;
+    height: 4px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.parent-tr td {
+    padding-right: 60px;
+    text-decoration: underline;
+}
+
+.child-td {
+    font-size: 14px;
+    max-width: 115px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.dot::after {
+    content: '';
+    background: #000;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.ForgeViewer {
+    height: 350px;
+}
+
+@media (max-width: 992px) {
+    .table th span {
+        font-size: 16px !important;
+    }
+}

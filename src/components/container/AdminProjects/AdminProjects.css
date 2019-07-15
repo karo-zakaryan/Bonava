@@ -1,0 +1,89 @@
+.cont {
+  min-height: 100%;
+  background-color: #edf0f2;
+}
+
+.Projects_full_page {
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Project_item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 1px solid #dddddd;
+}
+
+.Project_item_f,
+.Projects_item_s {
+  align-items: flex-end;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Project_item_info {
+  color: #013b2d;
+  margin-left: 35px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  width: 100%;
+}
+
+.Projects_item_s {
+  background-color: #fbfbfb;
+}
+
+.Project_item_title {
+  display: flex;
+  color: #013b2d !important;
+  font-family: "BonavaSans_bold" !important;
+  font-size: 21px;
+  white-space: normal;
+  margin-right: 8px;
+  padding-bottom: 0;
+}
+
+.Project_item_data {
+  margin-top: 8px;
+  font-size: 18px;
+  font-family: "BonavaSans_bold" !important;
+}
+
+.Project_item_title svg {
+  margin-right: 10px;
+}
+
+.Project_item_next {
+  border: 1px solid rgb(79, 226, 193);
+  background-color: rgb(79, 226, 193);
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.Project_item_data_label {
+  font-size: 14px;
+  font-family: "BonavaSans_regular" !important;
+}
+
+@media (max-width: 992px) {
+  .Project_item_info {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .Project_item_info div {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
