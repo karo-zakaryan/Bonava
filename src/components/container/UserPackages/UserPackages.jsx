@@ -192,7 +192,7 @@ const UserPackages = ({
                     <p>отделки</p>
                   </b>
                 </td>
-                {packages.data.map(item => (
+                {rPacks.map(item => (
                   <td key={item.id}>
                     <b>
                       {area * activePackage.price ? activePackage.price : 1}
